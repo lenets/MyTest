@@ -21,6 +21,11 @@ export default ({ mode }) => {
         },
       },
     },
+    css: {
+      modules: {
+          scopeBehaviour: 'global'
+      }
+    },
     plugins: [
       vue(),
       vitePluginFaviconsInject(env[favIcon]),
