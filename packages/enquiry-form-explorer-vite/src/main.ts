@@ -7,9 +7,10 @@ import VueClickAway from 'vue3-click-away';
 import App from './App.vue';
 import router from './router';
 
-import './assets/main.css';
+// import './assets/main.css';
 
 let cssPath = 'configs-brand-explorer/index';
+
 if(import.meta.env.VITE_SITE === 'STATTRAVEL') {
   cssPath = 'configs-brand-stattravel/index';
 }
