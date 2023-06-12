@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "dev:explorer": "cross-env VITE_SITE=EXPLORER vite",
-    "dev:stattravel": "cross-env SITE=stattravel VITE_SITE=STATTRAVEL vite",
+    "dev:stattravel": "cross-env VITE_SITE=STATTRAVEL vite",
     "build": "run-p type-check build-only",
     "build:explorer": "cross-env VITE_SITE=EXPLORER run-p type-check build-prod",
     "build:stattravel": "cross-env VITE_SITE=STATTRAVEL run-p type-check build-prod",
