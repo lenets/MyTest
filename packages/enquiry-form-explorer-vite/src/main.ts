@@ -9,10 +9,10 @@ import router from './router';
 
 // import './assets/main.css';
 
-let cssPath = 'configs-brand-explorer/index.css';
+let cssPath = '../../configs-brand-explorer/index.css';
 
 if(import.meta.env.VITE_SITE === 'STATTRAVEL') {
-  cssPath = 'configs-brand-stattravel/index.css';
+  cssPath = '../../configs-brand-stattravel/index.css';
 }
 
 import(cssPath);
