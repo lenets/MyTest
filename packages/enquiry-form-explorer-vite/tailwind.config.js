@@ -7,11 +7,11 @@ const {
 } = require('configs-brand-explorer/tailwind.config');
 
 function getConfig(params) {
-  if (process.env.SITE === 'explorer') {
+  if (process.env.VITE_SITE === 'EXPLORER') {
     return getTailwindConfigExplorer(params);
   }
 
-  if (process.env.SITE === 'stattravel') {
+  if (process.env.VITE_SITE === 'STATTRAVEL') {
     return getTailwindConfigStattravel(params);
   }
 
