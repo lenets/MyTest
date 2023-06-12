@@ -10,10 +10,8 @@ import router from './router';
 // import './assets/main.css';
 
 if (import.meta.env.VITE_SITE === 'STATTRAVEL') {
-  console.log(1);
   import('configs-brand-stattravel/index.css');
 } else {
-  console.log(2);
   import('configs-brand-explorer/index.css');
 }
 
