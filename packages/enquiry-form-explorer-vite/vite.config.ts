@@ -38,7 +38,7 @@ export default ({ mode }) => {
           }
         }
       }),
-      dynamicImport(/* options */),
+      dynamicImport(),
     ],
     resolve: {
       alias: {
