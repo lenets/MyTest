@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "dev:explorer": "cross-env VITE_SITE=EXPLORER vite",
-    "dev:stattravel": "cross-env VITE_SITE=STATTRAVEL vite",
+    "dev:stattravel": "cross-env VITE_SITE=STATTRAVEL cross-env vite",
     "build": "run-p type-check build-only",
     "build:explorer": "cross-env VITE_SITE=EXPLORER run-p type-check build-prod",
     "build:stattravel": "cross-env VITE_SITE=STATTRAVEL run-p type-check build-prod",
@@ -52,6 +52,7 @@
     "tailwindcss": "^3.1.8",
     "typescript": "~4.7.4",
     "vite": "^3.0.9",
+    "vite-plugin-dynamic-import": "^1.4.0",
     "vite-plugin-favicons-inject": "^2.2.0",
     "vite-plugin-html": "^3.2.0",
     "vitest": "^0.23.0",
