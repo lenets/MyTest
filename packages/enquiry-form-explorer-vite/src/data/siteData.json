@@ -1,0 +1,229 @@
+{
+  "STATTRAVEL": {
+    "siteName": "Stattravel",
+    "logoImg": "logoStattravel.svg",
+    "sidebarImg": "sidebarStattravel.jpg",
+    "domenUrl": "https://www.statravel.de/",
+    "firstStepTitle": "Plane deine Reise mit einem sta Reiseberater",
+    "secondStepTitle": "Erzähl uns mehr über deine Reise",
+    "datePickerStartLabel": "Beginn der Reise",
+    "datePickerEndLabel": "Ende der Reise",
+    "agencyList": [
+      "Berlin Mitte",
+      "Berlin Takustraße",
+      "Bremen",
+      "Dresden",
+      "Düsseldorf",
+      "Erlangen",
+      "Frankfurt",
+      "Freiburg",
+      "Göttingen",
+      "Hamburg",
+      "Hannover",
+      "Heidelberg",
+      "Karlsruhe",
+      "Köln",
+      "Leipzig",
+      "Mainz",
+      "München",
+      "Münster",
+      "Oldenburg",
+      "Osnabrück",
+      "Tübingen",
+      "Würzburg"
+    ],
+    "airportList": [
+      {
+        "name": "Frankfurt"
+      },
+      {
+        "name": "Düsseldorf"
+      },
+      {
+        "name": "Hamburg"
+      },
+      {
+        "name": "Berlin"
+      },
+      {
+        "name": "München"
+      },
+      {
+        "name": "Wien"
+      },
+      {
+        "name": "Zürich"
+      },
+      {
+        "name": "Bern"
+      }
+    ],
+    "preferredLeisureTypeList": [
+      "Rundreisen",
+      "Aktivreisen",
+      "Safaris",
+      "Strand & Entspannung",
+      "Städtereisen",
+      "Mietwagen-Rundreisen",
+      "Camper",
+      "Kreuzfahrten",
+      "Familienreisen",
+      "Round-the-World",
+      "Gruppenreisen",
+      "Young Travel",
+      "Nur Flug"
+    ],
+    "est_brand": "STA",
+    "contact_owner": "752355311",
+    "deal_owner": "752355311",
+    "thankYouLinks": [
+      {
+        "text": "Rundreisen",
+        "link": "#"
+      },
+      {
+        "text": "Camper & Co.",
+        "link": "#"
+      },
+      {
+        "text": "Versicherung",
+        "link": "#"
+      },
+      {
+        "text": "Flüge",
+        "link": "#"
+      },
+      {
+        "text": "Zur Homepage",
+        "link": "#"
+      }
+    ],
+    "thankYouCards": [
+      {
+        "imageUrl": "specialOffersPhoto-2.jpg",
+        "text": "Wir helfen Dir günstig, die schönsten Reise-Momente zu erleben. Mit immer neuen Angeboten.",
+        "button": {
+          "text": "Reise-Deals",
+          "link": "#"
+        }
+      },
+      {
+        "imageUrl": "specialOffersPhoto-3.png",
+        "text": "Unsere Reiseberater reisen passioniert. Hier teilen sie ihre Erfahrungen und Erlebnisse.",
+        "button": {
+          "text": "Reiseinspiration",
+          "link": "#"
+        }
+      }
+    ],
+    "conditionLink": "https://www.explorer.de/beratung/agb.html",
+    "privacyPolicyLink": "https://www.explorer.de/beratung/datenschutz.html"
+  },
+  "EXPLORER": {
+    "siteName": "Explorer",
+    "logoImg": "logoEx.svg",
+    "sidebarImg": "sidebarEx.jpg",
+    "domenUrl": "https://www.explorer.de/",
+    "firstStepTitle": "Plane Deine Reise mit einem Explorer Reiseberater",
+    "secondStepTitle": "Erzähl uns mehr über Deine Reise.",
+    "datePickerStartLabel": "Beginn der Reise auswählen",
+    "datePickerEndLabel": "Ende der Reise auswählen",
+    "agencyList": [
+      "Dortmund",
+      "Dresden",
+      "Düsseldorf",
+      "Essen",
+      "Frankfurt",
+      "Hamburg",
+      "Hannover",
+      "Köln",
+      "Mannheim",
+      "München",
+      "Nürnberg",
+      "Stuttgart"
+    ],
+    "airportList": [
+      {
+        "name": "Frankfurt"
+      },
+      {
+        "name": "Düsseldorf"
+      },
+      {
+        "name": "Hamburg"
+      },
+      {
+        "name": "Berlin"
+      },
+      {
+        "name": "München"
+      },
+      {
+        "name": "Wien"
+      },
+      {
+        "name": "Zürich"
+      },
+      {
+        "name": "Bern"
+      }
+    ],
+    "preferredLeisureTypeList": [
+      "Rundreisen",
+      "Aktivreisen",
+      "Safaris",
+      "Strand & Entspannung",
+      "Städtereisen",
+      "Mietwagen-Rundreisen",
+      "Camper",
+      "Kreuzfahrten",
+      "Familienreisen",
+      "Gruppenreisen"
+    ],
+    "est_brand": "Explorer",
+    "contact_owner": "752355063",
+    "deal_owner": "752355063",
+    "thankYouLinks": [
+      {
+        "text": "Alle Reisen",
+        "link": "https://www.explorer.de/reiseziele.html"
+      },
+      {
+        "text": "Mietwagen / Camper",
+        "link": "https://www.explorer.de/mietwagen-camper.html"
+      },
+      {
+        "text": "Hotels",
+        "link": "https://www.explorer.de/reisearten/hotels.html"
+      },
+      {
+        "text": "Flüge",
+        "link": "https://www.explorer.de/fluege.html"
+      },
+      {
+        "text": "Zur Homepage",
+        "link": "https://www.explorer.de/"
+      }
+    ],
+    "thankYouCards": [
+      {
+        "imageUrl": "specialOffersPhoto-2.jpg",
+        "text": "Wir helfen Dir günstig, die schönsten Reise-Momente zu erleben. Mit immer neuen Angeboten.",
+        "button": {
+          "text": "Aktionsangebote",
+          "link": "https://www.explorer.de/aktionen.html"
+        }
+      },
+      {
+        "imageUrl": "travelBlogsPhoto-2.jpg",
+        "text": "Unsere Reiseberater reisen passioniert. Hier teilen sie ihre Erfahrungen und Erlebnisse.",
+        "button": {
+          "text": "Reiseberichte",
+          "link": "https://www.explorer.de/kampagnen/reiseberichte.html"
+        }
+      }
+    ],
+    "conditionLink": "https://www.explorer.de/beratung/agb.html",
+    "privacyPolicyLink": "https://www.explorer.de/beratung/datenschutz.html"
+  }
+}

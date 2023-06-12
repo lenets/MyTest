@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Nunito:wght@400;500;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /********************** BUTTONS STYLES **********************/
+  .btn-disabled {
+    @apply bg-grey-lighter cursor-not-allowed rounded-lg text-grey;
+    transition: transform linear;
+
+    &:focus {
+      @apply outline-black bg-grey-lighter;
+    }
+
+    &:hover {
+      @apply bg-grey-lighter outline-none;
+      transform: scale(1.01);
+    }
+  }
+
+  .btn-primary {
+    @apply bg-primary font-bold text-grey-lighter text-16 rounded-lg duration-300 flex justify-center items-center;
+    transition: transform linear;
+
+    &:disabled,
+    &.disabled {
+      @apply btn-disabled;
+    }
+
+    &:focus,
+    &:hover {
+      @apply bg-primary-light outline-none;
+      transform: scale(1.01);
+    }
+  }
+
+  .btn-secondary {
+    @apply bg-secondary font-bold text-grey-lighter text-16 rounded-lg duration-300;
+    transition: transform linear;
+
+    &:disabled,
+    &.disabled {
+      @apply btn-disabled;
+    }
+
+    &:focus,
+    &:hover {
+      @apply bg-secondary-light outline-none;
+      transform: scale(1.01);
+    }
+  }
+
+  .btn-primary-outline {
+    @apply border border-primary font-bold text-16 text-primary rounded-lg duration-300 flex items-center justify-center;
+    transition: transform linear;
+
+    &:disabled,
+    &.disabled {
+      @apply btn-disabled border-none;
+    }
+
+    &:focus,
+    &:hover {
+      @apply text-primary-light;
+      transform: scale(1.01);
+    }
+  }
+
+  .btn-secondary-outline {
+    @apply border border-secondary font-bold text-16 text-secondary rounded-lg duration-300;
+    transition: transform linear;
+
+    &:disabled,
+    &.disabled {
+      @apply btn-disabled border-none;
+    }
+
+    &:focus,
+    &:hover {
+      @apply text-secondary-light;
+      transform: scale(1.01);
+    }
+  }
+
+  .btn-gray-outline {
+    @apply border border-[#DDE2E4] text-14 text-[#252C32] rounded-lg duration-300;
+    transition: transform linear;
+
+    &:disabled,
+    &.disabled {
+      @apply btn-disabled border-none;
+    }
+
+    &:focus,
+    &:hover {
+      @apply text-[#252C32];
+      transform: scale(1.01);
+    }
+  }
+
+  .step-title {
+    @apply mb-40 md:mb-48 font-bold text-22 text-primary font-secondary;
+  }
+  /********************** END BUTTONS STYLES **********************/
+
+  /********************** DATEPICKER COMPONENT STYLES **********************/
+  .datepicker__placeholder {
+    @apply mb-2;
+  }
+  /********************** END DATEPICKER COMPONENT STYLES **********************/
+
+  /********************** MenuPills COMPONENT STYLES **********************/
+  .menu-pills__pill {
+    @apply rounded-full;
+  }
+  /********************** END MenuPills COMPONENT STYLES **********************/
+
+  /********************** MonthPicker COMPONENT STYLES **********************/
+  .month-picker__input:checked + .checked-fill {
+    @apply ring-primary-light;
+  }
+  .month-picker__input:hover + .checked-fill {
+    @apply ring-primary-light;
+  }
+  /********************** END MonthPicker COMPONENT STYLES **********************/
+
+  /********************** MultiInputsWithCounter COMPONENT STYLES **********************/
+  .multi-inputs__title {
+    @apply font-medium;
+  }
+  .multi-inputs__item {
+      @apply font-medium;
+  }
+  /********************** END MultiInputsWithCounter COMPONENT STYLES **********************/
+
+  /********************** MULTISELECT COMPONENT STYLES **********************/
+  .multiselect-tag {
+    @apply font-medium;
+  }
+  .multiselect-tags-search {
+    @apply font-medium;
+  }
+  /**********************END MULTISELECT COMPONENT STYLES **********************/
+
+  /********************** TOGGLE SWITCH COMPONENT STYLES **********************/
+  .toggle-switch .switch-input:checked + .active-fill {
+    @apply font-medium;
+  }
+  /********************** END TOGGLE SWITCH COMPONENT STYLES **********************/
+
+  /********************** ENQUIRY WRAPPER STYLES **********************/
+  .header-nav {
+    @apply bg-grey-lighter;
+  }
+  /********************** ENQUIRY WRAPPER STYLES **********************/
+
+  /********************** NEWSLETTER WRAPPER STYLES **********************/
+  .newsletter-header-nav {
+    @apply bg-grey-lighter;
+  }
+  /********************** NEWSLETTER WRAPPER STYLES **********************/
+
+  /********************** FIRST STEP STYLES **********************/
+  .multi-inputs-wrapper {
+    @apply max-w-[280px];
+  }
+  .first-step__submit-btn {
+    @apply py-16 px-28 min-w-[280px] flex items-center justify-center;
+  }
+  /********************** END FIRST STEP STYLES **********************/
+
+  /********************** THIRD STEP STYLES **********************/
+  .third-step .submit-btn {
+    @apply py-10 px-16 min-w-[336px] flex items-center justify-center;
+  }
+  /********************** END THIRD STEP STYLES **********************/
+
+  /********************** NEWSLETTER STYLES **********************/
+  .newsletter .step-title {
+    @apply mb-24;
+  }
+  .newsletter .submit-btn {
+    @apply py-16 px-28 min-w-[234px] flex items-center justify-center;
+  }
+  /********************** END NEWSLETTER STYLES **********************/
+}

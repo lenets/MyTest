@@ -1,0 +1,20 @@
+[build]
+  publish = "dist"
+
+[dev]
+  targetPort = 5173
+  publish = "dist"
+
+[[redirects]]
+from = "/api/*"
+to = "https://api.hubapi.com/:splat"
+status = 200
+force = true
+[redirects.headers]
+Access-Control-Allow-Origin = "*"
+Authorization = "Bearer pat-eu1-bc799fe9-63f8-4faf-9070-972c600fd2fc"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200

@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /********************** BUTTONS STYLES **********************/
+  .btn-disabled {
+    @apply bg-grey-lighter cursor-not-allowed rounded-lg text-grey;
+    transition: transform linear;
+
+    &:focus {
+      @apply outline-black bg-grey-lighter;
+    }
+
+    &:hover {
+      @apply bg-grey-lighter outline-none;
+      transform: scale(1.01);
+    }
+  }
+
+  .btn-primary {
+    @apply bg-primary font-bold text-grey-lighter text-16 rounded-3xl tracking-[1px] duration-300 flex justify-center items-center;
+    transition: transform linear;
+
+    &:disabled,
+    &.disabled {
+      @apply btn-disabled;
+    }
+
+    &:focus,
+    &:hover {
+      @apply bg-primary-light outline-none;
+      transform: scale(1.01);
+    }
+  }
+
+  .btn-secondary {
+    @apply bg-primary rounded-3xl px-32 font-bold text-grey-lighter text-16 duration-300;
+    transition: transform linear;
+
+    &:disabled,
+    &.disabled {
+      @apply btn-disabled;
+    }
+
+    &:focus,
+    &:hover {
+      @apply outline-none;
+      transform: scale(1.01);
+    }
+  }
+
+  .btn-primary-outline {
+    @apply border rounded-3xl border-2 w-auto py-16 px-28 border-primary font-bold text-16 text-primary duration-300 flex items-center justify-center;
+    transition: transform linear;
+
+    &:disabled,
+    &.disabled {
+      @apply btn-disabled border-none;
+    }
+
+    &:focus,
+    &:hover {
+      @apply text-primary;
+      transform: scale(1.01);
+    }
+  }
+
+  .btn-secondary-outline {
+    @apply border border-secondary font-bold text-16 text-secondary rounded-lg duration-300;
+    transition: transform linear;
+
+    &:disabled,
+    &.disabled {
+      @apply btn-disabled border-none;
+    }
+
+    &:focus,
+    &:hover {
+      @apply text-secondary-light;
+      transform: scale(1.01);
+    }
+  }
+
+  .btn-gray-outline {
+    @apply border border-[#DDE2E4] text-14 text-[#252C32] rounded-lg duration-300;
+    transition: transform linear;
+
+    &:disabled,
+    &.disabled {
+      @apply btn-disabled border-none;
+    }
+
+    &:focus,
+    &:hover {
+      @apply text-[#252C32];
+      transform: scale(1.01);
+    }
+  }
+
+  .step-title {
+    @apply mb-40 md:mb-48 font-bold text-28 text-primary font-secondary;
+  }
+  /********************** END BUTTONS STYLES **********************/
+
+  /********************** COUNTER COMPONENT STYLES **********************/
+  .counter-component__label-title {
+    @apply font-semibold;
+  }
+  .counter-component__label-subtitle {
+      @apply font-medium;
+  }
+  /********************** END COUNTER COMPONENT STYLES **********************/
+
+  /********************** DATEPICKER COMPONENT STYLES **********************/
+  .datepicker__placeholder {
+    @apply mb-6;
+  }
+  /********************** END DATEPICKER COMPONENT STYLES **********************/
+
+  /********************** MenuPills COMPONENT STYLES **********************/
+  .menu-pills__pill {
+    @apply rounded-lg font-semibold;
+  }
+  /********************** END MenuPills COMPONENT STYLES **********************/
+
+  /********************** MonthPicker COMPONENT STYLES **********************/
+  .month-picker__input:checked + .checked-fill {
+    @apply ring-primary;
+  }
+  .month-picker__input:hover + .checked-fill {
+    @apply ring-primary;
+  }
+  /********************** END MonthPicker COMPONENT STYLES **********************/
+
+  /********************** MultiInputsWithCounter COMPONENT STYLES **********************/
+  .multi-inputs__title {
+    @apply font-semibold;
+  }
+  .multi-inputs__item {
+    @apply font-semibold;
+  }
+  /********************** END MultiInputsWithCounter COMPONENT STYLES **********************/
+
+  /********************** MULTISELECT COMPONENT STYLES **********************/
+  .multiselect-tag,
+  .multiselect-tags-search {
+    @apply font-semibold;
+  }
+  /********************** END MULTISELECT COMPONENT STYLES **********************/
+
+  /********************** PONTER HEADING COMPONENT STYLES **********************/
+  .pointer-heading {
+    @apply text-primary-dark
+  }
+  /********************** END POINTER HEADING COMPONENT STYLES **********************/
+
+  /********************** RADIO BUTTON COMPONENT STYLES **********************/
+   .radiobtn-component__input::before,
+   .radiobtn-component__input:checked:before {
+    box-shadow: inset 0 0 0 6px #fff !important;
+    @apply border-primary !important;
+  }
+  /********************** END RADIO BUTTON COMPONENT STYLES **********************/
+
+  /********************** TEXTAREA COMPONENT STYLES **********************/
+  .textarea-component textarea {
+    @apply text-right;
+  }
+  /********************** END TEXTAREA COMPONENT STYLES **********************/
+
+  /********************** TOGGLE SWITCH COMPONENT STYLES **********************/
+  .toggle-switch .switch-input:checked + .active-fill {
+    @apply font-semibold;
+  }
+  /********************** END TOGGLE SWITCH COMPONENT STYLES **********************/
+
+  /********************** VERTICAL STEP COMPONENT STYLES **********************/
+  .step.active .circle {
+    box-shadow: inset 0 0 0 6px #fff;
+  }
+  /********************** END VERTICAL STEP COMPONENT STYLES **********************/
+
+  /********************** ENQUIRY WRAPPER STYLES **********************/
+  .header-nav {
+    @apply bg-white;
+  }
+  /********************** END ENQUIRY WRAPPER STYLES **********************/
+
+  /********************** NEWSLETTER WRAPPER STYLES **********************/
+  .newsletter-header-nav {
+    @apply bg-white flex justify-center pl-0;
+  }
+  .newsletter-header-nav .logo {
+    @apply items-center;
+  }
+  /********************** END NEWSLETTER WRAPPER STYLES **********************/
+
+  /********************** FIRST STEP STYLES **********************/
+  .multi-inputs-wrapper {
+    @apply max-w-[275px];
+  }
+  .first-step__submit-btn {
+    @apply py-10 px-24 min-w-[267px];
+  }
+  /********************** END FIRST STEP STYLES **********************/
+
+  /********************** SECOND STEP STYLES **********************/
+  .second-step .slider-sub-title {
+    @apply text-18;
+  }
+  .second-step .note {
+    @apply md:h-[140px];
+  }
+  /********************** END SECOND STEP STYLES **********************/
+
+  /********************** THIRD STEP STYLES **********************/
+  .third-step .prev-btn {
+    @apply w-full md:w-auto;
+  }
+  /********************** END THIRD STEP STYLES **********************/
+
+  /********************** THANK YOU STYLES **********************/
+  .thank-you .primary-btn {
+    @apply rounded-3xl !important;
+  }
+  .thank-you .footer-links {
+    @apply max-w-[475px] mx-auto !important;
+  }
+  .thank-you .footer-link {
+    @apply rounded-lg font-semibold !important;
+  }
+  .thank-you .main-title {
+    @apply text-28 mt-24 !important;
+  }
+  .thank-you .circle svg {
+    @apply fill-primary !important;
+  }
+  .thank-you .thank-subscribe {
+    @apply bg-[#D5E5F4] !important;
+  }
+  .thank-you .thank-subscribe__txt {
+    @apply text-primary-dark !important;
+  }
+  .thank-you .cards__title {
+    @apply text-22 !important;
+  }
+  .thank-you .card {
+    @apply p-16 bg-[#F8F8F9] !important;
+  }
+  .thank-you .card__txt {
+    @apply text-primary-dark min-h-[96px] flex items-center !important;
+  }
+  .thank-you .header-nav {
+    @apply justify-center pl-0 !important;
+  }
+  .thank-you .header-nav > div {
+    display: none;
+  }
+  /********************** END THANK YOU STYLES **********************/
+
+  /********************** NEWSLETTER THANK YOU STYLES **********************/
+  .newsletter-thankyou .footer-links {
+    @apply max-w-[475px] mx-auto !important;
+  }
+  .newsletter-thankyou .footer-link {
+    @apply rounded-lg font-semibold !important;
+  }
+  .newsletter-thankyou .cards__title {
+    @apply text-22 !important;
+  }
+  .newsletter-thankyou .card {
+    @apply p-16 bg-[#F8F8F9] !important;
+  }
+  .newsletter-thankyou .card__txt {
+    @apply text-primary-dark min-h-[96px] flex items-center !important;
+  }
+  .newsletter-thankyou .primary-btn {
+    @apply rounded-3xl !important;
+  }
+  /********************** END NEWSLETTER THANK YOU STYLES **********************/
+}

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
+/* Solution of fix overflow in fieldset */
+fieldset {
+  min-inline-size: auto;
+}

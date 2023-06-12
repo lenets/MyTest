@@ -1,0 +1,52 @@
+{
+  "name": "components-vue3",
+  "version": "0.0.0",
+  "files": [
+    "dist",
+    "dist/style.css"
+  ],
+  "main": "./src/components/index.ts",
+  "scripts": {
+    "dev": "vite",
+    "dev:rg": "VITE_BRAND=RG vite",
+    "dev:ex": "VITE_BRAND=EXPLORER vite",
+    "build": "run-p type-check build-only && vue-tsc --declaration --emitDeclarationOnly ",
+    "preview": "vite preview --port 4173",
+    "test:unit": "vitest --environment jsdom",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@vuepic/vue-datepicker": "3.4.8",
+    "@vueform/multiselect": "2.5.3",
+    "configs-brand-explorer": "*",
+    "vue": "^3.2.38",
+    "vue3-click-away": "^1.2.4"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@types/jsdom": "^20.0.0",
+    "@types/node": "^16.11.56",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "@vue/test-utils": "^2.0.2",
+    "@vue/tsconfig": "^0.1.3",
+    "autoprefixer": "^10.4.10",
+    "eslint": "8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "jsdom": "^20.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.16",
+    "postcss-nesting": "^10.2.0",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.8",
+    "typescript": "~4.7.4",
+    "vite": "^3.0.9",
+    "vite-plugin-dts": "^1.5.0",
+    "vitest": "^0.23.0",
+    "vue-tsc": "^0.40.7"
+  }
+}

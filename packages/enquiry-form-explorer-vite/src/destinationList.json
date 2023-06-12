@@ -1,0 +1,353 @@
+[
+  {
+    "Country": "Ägypten"
+  },
+  {
+    "Country": "Botswana"
+  },
+  {
+    "Country": "Kenia"
+  },
+  {
+    "Country": "Lesotho"
+  },
+  {
+    "Country": "Malawi"
+  },
+  {
+    "Country": "Mosambik"
+  },
+  {
+    "Country": "Namibia"
+  },
+  {
+    "Country": "Ruanda"
+  },
+  {
+    "Country": "Sambia"
+  },
+  {
+    "Country": "Sansibar"
+  },
+  {
+    "Country": "Simbabwe"
+  },
+  {
+    "Country": "Südafrika"
+  },
+  {
+    "Country": "Swasiland"
+  },
+  {
+    "Country": "Tansania"
+  },
+  {
+    "Country": "Uganda"
+  },
+  {
+    "Country": "Bhutan"
+  },
+  {
+    "Country": "China"
+  },
+  {
+    "Country": "Hong Kong"
+  },
+  {
+    "Country": "Indien"
+  },
+  {
+    "Country": "Indonesien"
+  },
+  {
+    "Country": "Japan"
+  },
+  {
+    "Country": "Kambodscha"
+  },
+  {
+    "Country": "Südkorea"
+  },
+  {
+    "Country": "Laos"
+  },
+  {
+    "Country": "Macau"
+  },
+  {
+    "Country": "Malaysia"
+  },
+  {
+    "Country": "Myanmar"
+  },
+  {
+    "Country": "Nepal"
+  },
+  {
+    "Country": "Philippinen"
+  },
+  {
+    "Country": "Singapur"
+  },
+  {
+    "Country": "Sri Lanka"
+  },
+  {
+    "Country": "Taiwan"
+  },
+  {
+    "Country": "Thailand"
+  },
+  {
+    "Country": "Vietnam"
+  },
+  {
+    "Country": "Australien / Alle"
+  },
+  {
+    "Country": "Australien / New South Wales"
+  },
+  {
+    "Country": "Australien / Northern Territory"
+  },
+  {
+    "Country": "Australien / Queensland"
+  },
+  {
+    "Country": "Australien / South Australia"
+  },
+  {
+    "Country": "Australien / Tasmanien"
+  },
+  {
+    "Country": "Australien / Victoria"
+  },
+  {
+    "Country": "Australien / Western Australia"
+  },
+  {
+    "Country": "Deutschland"
+  },
+  {
+    "Country": "Finnland"
+  },
+  {
+    "Country": "Frankreich"
+  },
+  {
+    "Country": "Griechenland"
+  },
+  {
+    "Country": "Italien"
+  },
+  {
+    "Country": "Island"
+  },
+  {
+    "Country": "Kroatien"
+  },
+  {
+    "Country": "Norwegen"
+  },
+  {
+    "Country": "Portugal"
+  },
+  {
+    "Country": "Schweden"
+  },
+  {
+    "Country": "Spanien"
+  },
+  {
+    "Country": "La Réunion"
+  },
+  {
+    "Country": "Madagaskar"
+  },
+  {
+    "Country": "Malediven"
+  },
+  {
+    "Country": "Mauritius"
+  },
+  {
+    "Country": "Seychellen"
+  },
+  {
+    "Country": "Kanada / Alle"
+  },
+  {
+    "Country": "Kanada / Alberta"
+  },
+  {
+    "Country": "Kanada / British Columbia"
+  },
+  {
+    "Country": "Kanada / Manitoba"
+  },
+  {
+    "Country": "Kanada / Neufundland"
+  },
+  {
+    "Country": "Kanada / New Brunswick"
+  },
+  {
+    "Country": "Kanada / Nova Scotia"
+  },
+  {
+    "Country": "Kanada / Ontario"
+  },
+  {
+    "Country": "Kanada / Prince Edward Island"
+  },
+  {
+    "Country": "Kanada / Québec"
+  },
+  {
+    "Country": "Kanada / Saskatchewan"
+  },
+  {
+    "Country": "Kanada / Yukon"
+  },
+  {
+    "Country": "ABC-Inseln"
+  },
+  {
+    "Country": "Dominikanische Republik"
+  },
+  {
+    "Country": "Jamaika"
+  },
+  {
+    "Country": "Kleine Antillen"
+  },
+  {
+    "Country": "Kuba"
+  },
+  {
+    "Country": "Trinidad & Tobago"
+  },
+  {
+    "Country": "Argentinien"
+  },
+  {
+    "Country": "Belize"
+  },
+  {
+    "Country": "Bolivien"
+  },
+  {
+    "Country": "Brasilien"
+  },
+  {
+    "Country": "Chile"
+  },
+  {
+    "Country": "Costa Rica"
+  },
+  {
+    "Country": "Ecuador"
+  },
+  {
+    "Country": "El Salvador"
+  },
+  {
+    "Country": "Galápagos"
+  },
+  {
+    "Country": "Guatemala"
+  },
+  {
+    "Country": "Honduras"
+  },
+  {
+    "Country": "Kolumbien"
+  },
+  {
+    "Country": "Mexiko"
+  },
+  {
+    "Country": "Nicaragua"
+  },
+  {
+    "Country": "Panama"
+  },
+  {
+    "Country": "Peru"
+  },
+  {
+    "Country": "Uruguay"
+  },
+  {
+    "Country": "Neuseeland"
+  },
+  {
+    "Country": "Nordinsel"
+  },
+  {
+    "Country": "Südinsel"
+  },
+  {
+    "Country": "Jordanien"
+  },
+  {
+    "Country": "Katar"
+  },
+  {
+    "Country": "Oman"
+  },
+  {
+    "Country": "Vereinigte Arabische Emirate"
+  },
+  {
+    "Country": "Cook Inseln"
+  },
+  {
+    "Country": "Fiji"
+  },
+  {
+    "Country": "Französisch Polynesien"
+  },
+  {
+    "Country": "Neukaledonien"
+  },
+  {
+    "Country": "Samoa"
+  },
+  {
+    "Country": "USA / Alle"
+  },
+  {
+    "Country": "USA / Alaska"
+  },
+  {
+    "Country": "USA / Bahamas"
+  },
+  {
+    "Country": "USA / Florida"
+  },
+  {
+    "Country": "USA / Hawaii"
+  },
+  {
+    "Country": "USA / Kalifornien"
+  },
+  {
+    "Country": "USA / Osten USA"
+  },
+  {
+    "Country": "USA / Mittlerer Westen und Große Seen"
+  },
+  {
+    "Country": "USA / Neuengland"
+  },
+  {
+    "Country": "USA / Südstaaten USA"
+  },
+  {
+    "Country": "USA / Texas"
+  },
+  {
+    "Country": "USA / Westen USA"
+  }
+]
