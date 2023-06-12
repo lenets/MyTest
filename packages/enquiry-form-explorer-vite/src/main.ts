@@ -7,7 +7,7 @@ import VueClickAway from 'vue3-click-away';
 import App from './App.vue';
 import router from './router';
 
-import './assets/main.css';
+// import './assets/main.css';
 
 if (import.meta.env.VITE_SITE === 'STATTRAVEL') {
   console.log(1);
