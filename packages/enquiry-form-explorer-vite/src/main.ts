@@ -9,11 +9,13 @@ import router from './router';
 
 // import './assets/main.css';
 
-if (import.meta.env.VITE_SITE === 'EXPLORER') {
-  import('configs-brand-explorer/index.css');
-} else {
-  import('configs-brand-stattravel/index.css');
+let cssPath = 'configs-brand-explorer/index';
+
+if(import.meta.env.VITE_SITE === 'STATTRAVEL') {
+  cssPath = 'configs-brand-stattravel/index';
 }
+
+import(`../../${cssPath}.css`);
 
 const app = createApp(App);
 
