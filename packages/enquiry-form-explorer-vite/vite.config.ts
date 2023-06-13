@@ -3,6 +3,7 @@ import { defineConfig, loadEnv } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import vitePluginFaviconsInject from 'vite-plugin-favicons-inject';
 import { createHtmlPlugin } from 'vite-plugin-html';
+import dynamicImportVars from '@rollup/plugin-dynamic-import-vars';
 
 // https://vitejs.dev/config/
 export default ({ mode }) => {
@@ -34,8 +35,12 @@ export default ({ mode }) => {
         inject: {
           data: {
             title: env[title],
+            site: env['VITE_SITE'],
           }
         }
+      }),
+      dynamicImportVars({
+        include: './src/main.ts',
       }),
     ],
     resolve: {

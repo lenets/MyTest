@@ -32,7 +32,11 @@
       style="display: none; visibility: hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <div id="app"></div>
-  <script type="module" src="/src/main.ts"></script>
+  <% if (site === 'STATTRAVEL') { %>
+    <script type="module" src="/src/main-stattravel.ts"></script>
+  <% } else { %>
+    <script type="module" src="/src/main.ts"></script>
+  <% } %>
 </body>
 
 </html>

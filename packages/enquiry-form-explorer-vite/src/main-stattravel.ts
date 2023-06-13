@@ -7,10 +7,9 @@ import VueClickAway from 'vue3-click-away';
 import App from './App.vue';
 import router from './router';
 
-// import './assets/main.css';
+import './assets/main.css';
 
-import('configs-brand-explorer/index.css');
-
+import('configs-brand-stattravel/index.css');
 
 const app = createApp(App);
 
