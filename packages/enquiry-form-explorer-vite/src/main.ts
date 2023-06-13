@@ -10,8 +10,10 @@ import router from './router';
 import './assets/main.css';
 
 if (import.meta.env.VITE_SITE === 'EXPLORER') {
+  console.log(import.meta.env.VITE_SITE );
   import('configs-brand-explorer/index.css');
 } else {
+  console.log(import.meta.env.VITE_SITE );
   import('configs-brand-stattravel/index.css');
 }
 

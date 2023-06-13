@@ -5411,7 +5411,7 @@ es-abstract@^1.19.0, es-abstract@^1.20.4:
     unbox-primitive "^1.0.2"
     which-typed-array "^1.1.9"
 
-es-module-lexer@^1.0.0, es-module-lexer@^1.2.1:
+es-module-lexer@^1.0.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/es-module-lexer/-/es-module-lexer-1.3.0.tgz#6be9c9e0b4543a60cd166ff6f8b4e9dae0b0c16f"
   integrity sha512-vZK7T0N2CBmBOixhmjdqx2gWVbFZ4DXZ/NyRMZVlJXPa7CyFS+/a4QQsDGDQy9ZfEzxFuNEsMLeQJnKP2p5/JA==
@@ -13306,15 +13306,6 @@ vite-plugin-dts@^1.5.0:
     fs-extra "^10.1.0"
     kolorist "^1.6.0"
     ts-morph "17.0.1"
-
-vite-plugin-dynamic-import@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-dynamic-import/-/vite-plugin-dynamic-import-1.4.0.tgz#681fd38e40b36a4d312092b16a2cd96d735ed9d1"
-  integrity sha512-OBWeCGyWE4iIwCUfx3RK8XwT1BjPAJNeMQmdO5md5Gq8PD8gLMCfUnuEiX9dIQDL9Gdvao1GNRqZwfcpwWDTNw==
-  dependencies:
-    acorn "^8.8.2"
-    es-module-lexer "^1.2.1"
-    fast-glob "^3.2.12"
 
 vite-plugin-favicons-inject@^2.2.0:
   version "2.2.0"
